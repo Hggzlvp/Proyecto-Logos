@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../stylee.css">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -26,7 +27,33 @@
 
     <main class="main-reservas">
         <section class="section1-reservas">
-            <p class="p-reservas">Reserva tu mesa en Logos</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/imagenes/pexels-rachel-claire-4577179.jpg" class="d-block w-100" alt="Mesa decorada">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagenes/pexels-andrea-piacquadio-3937468.jpg" class="d-block w-100" alt="Gente charlando">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagenes/pexels-jonathan-borba-2878741.jpg" class="d-block w-100" alt="Plato servido">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
         </section>
         <section>
 
@@ -44,34 +71,35 @@
             <h4 class="h4-reserva">Horario de cierre del restaurante:</h4>
             
              <p class="p5r"> 18:00h servicio de comida</p>
-        </section>  
-        <section>
-            <form action="">
-                <label for="seleccion-personas">Personas</label>
-                <select class="seleccion-personas">
-                    <option value="1">1 Persona</option>
-                    <option value="2">2 Personas</option>
-                    <option value="3">3 Personas</option>
-                    <option value="4">4 Personas</option>
-                    <option value="5">5 Personas</option>
-                    <option value="6">6 Personas</option>
-                </select>
-                <label for="seleccion-hora">Hora</label>
-                <select class="seleccion-hora">
-                    <option value="13:30">13:30</option>
-                    <option value="20:20">20:20</option>
-                    <option value="21:00">21:00</option>
-                </select>
-
-                <ul>
-                    <li><button type="submit">ENVIAR</li>
-                </ul>
-               
-            </form>  
         </section>
+        <section>  
+          <div class="row g-3">
+            <div class="col">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Horario</option>
+                <option value="1">22:00</option>
+                <option value="2">21:45</option>
+                <option value="3">13:40</option>
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Personas</option>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="3">4 personas</option>
+                <option value="3">5 personas</option>
+                <option value="3">6 personas</option>
+              </select>
+            </div>
+          </div>
+        
+        
     </main>
     <footer>
         &#9400opyrigth  
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
