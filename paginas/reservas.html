@@ -1,89 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../stylee.css">
-    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="../stylee.css">
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <p>LOGOS</p>
+  <header>
+    <div class="logo">
+      <p>LOGOS</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="Carta.html">Carta</a></li>
+        <li><a href="reservas.html">Reservas</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-reservas">
+    <section class="section1-reservas">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-        <nav>
-           <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="Carta.html">Carta</a></li>
-                <li><a href="reservas.html">Reservas</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-           </ul>
-        </nav>
-    </header>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/imagenes/pexels-rachel-claire-4577179.jpg" class="d-block w-100" alt="Mesa decorada">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/pexels-andrea-piacquadio-3937468.jpg" class="d-block w-100" alt="Gente charlando">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/pexels-jonathan-borba-2878741.jpg" class="d-block w-100" alt="Plato servido">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <main class="main-reservas">
-        <section class="section1-reservas">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/imagenes/pexels-rachel-claire-4577179.jpg" class="d-block w-100" alt="Mesa decorada">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/imagenes/pexels-andrea-piacquadio-3937468.jpg" class="d-block w-100" alt="Gente charlando">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/imagenes/pexels-jonathan-borba-2878741.jpg" class="d-block w-100" alt="Plato servido">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            
-        </section>
-        <section>
+    </section>
+    <section>
 
-            <p class="p2r">Tu momento del placer. Comienza a vivir la experiencia "Cocinar Belleza".</p>
-            
-            <h2 class="h2-reserva">Nada de lo que has visto o leído es capaz de explicar lo que sucede en este pequeño restaurante frente a la playa.</h2>
+      <p class="p2r">Tu momento del placer. Comienza a vivir la experiencia "Cocinar Belleza".</p>
 
-            <p class="p3r">Pero ya estás aquí: es tu momento. Ya has dado el primer paso: se llama curiosidad y es lo que mueve el mundo; ahora, tan sólo te queda elegir una fecha y seguir las indicaciones del sistema.
-            Si tienes alguna duda puedes contactarnos por teléfono (+3412656, de 11h a 14h) o escribirnos a logosrestaurante@gmail.com</p>
-            
-            <h3 class="h3-reserva">Te esperamos. No falta nada…</h3>
-       
-            <p class="p4r">Los cambios y anulaciones deben hacerse con una antelación de CINCO días a las fecha de tu reserva.</p>
-        
-            <h4 class="h4-reserva">Horario de cierre del restaurante:</h4>
-            
-             <p class="p5r"> 18:00h servicio de comida</p>
-        </section>
-        <section>  
-          <div class="row g-3">
-            <div class="col">
-              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option selected>Horario</option>
-                <option value="1">22:00</option>
-                <option value="2">21:45</option>
-                <option value="3">13:40</option>
-              </select>
-            </div>
-            <div class="col">
-              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <h2 class="h2-reserva">Nada de lo que has visto o leído es capaz de explicar lo que sucede en este pequeño
+        restaurante frente a la playa.</h2>
+
+      <p class="p3r">Pero ya estás aquí: es tu momento. Ya has dado el primer paso: se llama curiosidad y es lo que
+        mueve el mundo; ahora, tan sólo te queda elegir una fecha y seguir las indicaciones del sistema.
+        Si tienes alguna duda puedes contactarnos por teléfono (+3412656, de 11h a 14h) o escribirnos a
+        logosrestaurante@gmail.com</p>
+
+      <h3 class="h3-reserva">Te esperamos. No falta nada…</h3>
+
+      <p class="p4r">Los cambios y anulaciones deben hacerse con una antelación de CINCO días a las fecha de tu reserva.
+      </p>
+
+      <h4 class="h4-reserva">Horario de cierre del restaurante:</h4>
+
+      <p class="p5r"> 18:00h servicio de comida</p>
+    </section>
+    <section>
+
+      <section class="reservar">
+        <form class="form-reserva">
+          <ul>
+            <li>
+              <select class="Personas">
                 <option selected>Personas</option>
                 <option value="1">1 persona</option>
                 <option value="2">2 personas</option>
@@ -92,14 +99,32 @@
                 <option value="3">5 personas</option>
                 <option value="3">6 personas</option>
               </select>
-            </div>
-          </div>
-        
-        
-    </main>
-    <footer>
-        &#9400opyrigth  
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+            </li>
+            <li>
+              <select class="Horario">
+                <option selected>Horarios</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+
+              </select>
+            </li>
+            <li><button class="boton" type="submit">ENVIAR</li>
+          </ul>
+        </form>
+      </section>
+
+      </div>
+      </div>
+
+
+  </main>
+  <footer>
+    &#9400opyrigth
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
