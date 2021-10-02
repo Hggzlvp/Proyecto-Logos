@@ -269,9 +269,6 @@ textarea:focus {
 
 /*FIN DE CONTACTOS*/
 @media only screen and (min-width: 300px) and (max-width: 457px) {
-  .logo {
-    background-color: red;
-  }
   /*INICIO NAV*/
   ul {
     list-style: none;
@@ -351,9 +348,6 @@ textarea:focus {
 
 /*FIN DE CONTACTOS*/
 @media only screen and (min-width: 458px) and (max-width: 801px) {
-  .logo {
-    background-color: green;
-  }
   /*INICIO NAV*/
   ul {
     list-style: none;
