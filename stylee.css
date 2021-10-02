@@ -19,6 +19,7 @@ header {
 ul {
   list-style: none;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 ul li {
@@ -38,8 +39,8 @@ ul li a {
 }
 
 ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 ul li a:hover {
@@ -90,6 +91,29 @@ footer {
 }
 
 /* FIN INICIO */
+/*COMIENZO DE CARTA*/
+.main-carta {
+  width: 100%;
+  height: 100%;
+}
+
+.h2m {
+  font-family: "Style Script", cursive;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 1;
+}
+
+.fondo-carta {
+  width: 100%;
+  height: 100%;
+}
+
+.fondo-carta img {
+  width: 55%;
+}
+
+/*FIN DE CARTA*/
 /*COMIENZO RESERVAS*/
 .carousel-inner img {
   height: 600px;
@@ -144,6 +168,39 @@ footer {
 }
 
 /*FIN DE RESERVAS*/
+/*COMIENZO DE GALERIA*/
+.div-linea {
+  margin: 0px 140px 0px 140px;
+}
+
+.h1g {
+  font-family: "Style Script", cursive;
+  text-align: center;
+  margin: 40px 0px 10px 0px;
+  font-weight: 1;
+  font-size: 60px;
+  border-bottom: 1px solid #777673;
+  padding-bottom: 50px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 30%);
+  align-content: center;
+  justify-content: center;
+  margin: 0% 5% 0% 5%;
+  gap: 2% 5%;
+}
+
+.foto-galeria img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 3px 3px 10px 0px #e2a706;
+          box-shadow: 3px 3px 10px 0px #e2a706;
+}
+
+/*FIN DE GALERIA*/
 /*COMIENZO DE CONTACTOS*/
 .contactar-texto {
   width: 800px;
@@ -208,6 +265,135 @@ textarea:focus {
   background: #020202;
   color: #e2a706;
   letter-spacing: 3px;
+}
+
+/*FIN DE CONTACTOS*/
+@media only screen and (min-width: 300px) and (max-width: 457px) {
+  .logo {
+    background-color: red;
+  }
+  /*INICIO NAV*/
+  ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  ul li {
+    display: block;
+  }
+  ul li:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  ul li a:hover {
+    color: #e2a706;
+  }
+  /*FIN NAV*/
+  /*COMIENZO DE CARTA*/
+  .fondo-carta {
+    width: 100%;
+    height: 100%;
+  }
+  .fondo-carta img {
+    width: 100%;
+  }
+  /*FIN DE CARTA*/
+  /*COMIENZO DE CONTACTOS*/
+  .contactar-texto {
+    width: 70%;
+    margin: auto;
+  }
+  .h1c {
+    padding-right: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #202126;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-top: 70px;
+  }
+  .p1c {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 70px;
+  }
+  .form-contacto {
+    width: 100%;
+    margin: auto;
+  }
+  .contactar ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  input,
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid;
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
+  input:focus,
+  textarea:focus {
+    outline: none;
+    color: #e2a706;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+}
+
+/*FIN DE CONTACTOS*/
+@media only screen and (min-width: 458px) and (max-width: 801px) {
+  .logo {
+    background-color: green;
+  }
+  /*INICIO NAV*/
+  ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  ul li a:hover {
+    color: #e2a706;
+  }
+  /*FIN NAV*/
+  /*COMIENZO DE CARTA*/
+  .fondo-carta {
+    width: 100%;
+    height: 100%;
+  }
+  .fondo-carta img {
+    width: 100%;
+  }
+  /*FIN DE CARTA*/
+  /*COMIENZO DE CONTACTOS*/
+  .contactar-texto {
+    width: 80%;
+    margin: auto;
+  }
+  .p1c {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 70px;
+  }
+  .form-contacto {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 /*FIN DE CONTACTOS*/
