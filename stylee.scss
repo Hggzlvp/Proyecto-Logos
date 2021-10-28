@@ -17,6 +17,7 @@ header {
   letter-spacing: 8px;
   font-size: 35px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -250,6 +251,43 @@ textarea:focus {
   letter-spacing: 3px;
 }
 /*FIN DE CONTACTOS*/
+
+/*COMIENZO FOOTER*/
+footer{
+  background: $colorPrimario;
+  background: linear-gradient(223deg, rgb(15, 15, 15) 0%, rgb(15, 15, 15) 50%, $colorPrimario 100%);
+  width: 100%;    
+  height: 220px;
+}
+
+.f-logo{
+  display: block;
+  padding: 10px;
+  color: $colorPrimario;
+  letter-spacing: 8px;
+  font-size: 35px;
+  text-align: center;
+}
+.f-social img {
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.foo-social img {
+  display: inline-block;
+  height: 70px;
+  width: auto;
+  padding: 15px;
+  margin-top: 25px;
+}
+  
+.footer-copy{
+  display:inline-block;
+}
+/*FIN FOOTER*/
 
 @media only screen and (min-width:300px) and (max-width:457px)
 {
